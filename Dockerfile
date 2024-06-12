@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y \
     php7.4-xdebug \
     curl \
     php7.4-fpm \
+    php7.4-curl \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
